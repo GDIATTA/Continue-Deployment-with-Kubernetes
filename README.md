@@ -68,10 +68,27 @@ Once it's installed. You can start this Kubernetes cluster by using: **minikube 
 
 
 Get started with Kubernetes <br>
-> 1. Open your docker deamon engin
-> 2. Start the kubernetes cluster with five noeuds for example by using : **minikube start --nodes=5**
-> 3. Open the Dashboard of Kubernetes by using : **minikube dashboard**
-> 4. 
+> 1. Open your docker deamon engin <bR>
+> 2. Start the kubernetes cluster with five noeuds for example by using : **minikube start --nodes=5** <br>
+> 3. Open the Dashboard of Kubernetes by using : **minikube dashboard** <br>
+
+![Capture d’écran 2024-09-02 173020](https://github.com/user-attachments/assets/7acc7566-0318-4c16-a4ff-15482bbe84e6)
+![Capture d’écran 2024-09-02 173149](https://github.com/user-attachments/assets/0ebe32ed-61e5-4a6f-951b-67b0605653d5)
+
+In this tutorial, we want to deploy an web application flask. <br>
+
+> 4. Save image of this application container into your repository Docker Hub : <br>
+>> Create a dockerfile for this application <br>
+>> Build this dockerfile : **docker build -t <name_image> <path_dockerfile>** <br>
+>> It's recommanded to test this image by running the container before you use kubernetes to deploy. <br>
+>> Tag this image once you've built : **docker tag <name_image> <name_repository>:Tag_version** <br>
+>> Push this image into your **repository Docker Hub** : **docker push <name_repository>:Tag_version**
+
+> 5. Deploy your conatiner app image into the cluster. For that you can use either directly the terminal command, this one it'not recommanded, either the file **YAML**. <br>
+
+![Capture d’écran 2024-09-02 175234](https://github.com/user-attachments/assets/d6f8a898-b490-4bfb-817a-6e0edf3919db)
+![Capture d’écran 2024-09-02 175301](https://github.com/user-attachments/assets/112353a2-2fd9-4b93-b331-2eeb7414391a)
+ 
 
 
 
