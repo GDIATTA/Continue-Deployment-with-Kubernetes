@@ -96,6 +96,14 @@ In this tutorial, we want to deploy an web application flask. <br>
 ![Capture d’écran 2024-09-02 180049](https://github.com/user-attachments/assets/38d202fc-056a-4ecb-b8a3-04d01d427231)
 ![Capture d’écran 2024-09-02 180101](https://github.com/user-attachments/assets/2b426f97-5c3c-4b83-bfff-d8660b092ecd)
 
+> 7. Print the web application <br>
+
+![Capture d’écran 2024-09-02 180356](https://github.com/user-attachments/assets/f0f4c364-859a-4e49-a4af-e57c1aaecd99)
+![Capture d’écran 2024-09-02 180049](https://github.com/user-attachments/assets/fde5202d-4533-4728-93fd-81703d7b8bd4)
+![Capture d’écran 2024-09-02 180101](https://github.com/user-attachments/assets/56196db8-e410-43a5-a41b-9397dffe4adf)
+![Capture d’écran 2024-09-02 180249](https://github.com/user-attachments/assets/7203b1d7-ee24-447a-8bec-aadb9a181827)
+![Capture d’écran 2024-09-02 180310](https://github.com/user-attachments/assets/c15a6b00-fd71-4c1e-999a-775ef7fa0c67)
+
  
 
 
