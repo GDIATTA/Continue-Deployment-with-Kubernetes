@@ -62,3 +62,9 @@ if ($oldPath.Split(';') -inotcontains 'C:\minikube'){ <br>
 
 ![Capture d’écran 2024-09-02 171052](https://github.com/user-attachments/assets/c1a50178-fe8b-4dc5-be2a-09e5c142186d)
 
+Once it's installed. You can start this Kubernetes cluster by using: **minikube start(one noeud)/ minikube start --nodes=5(five noeuds)** <br>
+
+![Capture d’écran 2024-08-21 160133](https://github.com/user-attachments/assets/2751a5a4-98a1-413f-9337-ea3edf846cb8)
+
+
+
