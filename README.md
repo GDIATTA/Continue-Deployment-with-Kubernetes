@@ -34,3 +34,27 @@ Validate the kubectl binary against the checksum file: <br>
 > 4. Test to ensure the version of kubectl is the same as downloaded: <br>
 
 ![Capture d’écran 2024-08-19 165354](https://github.com/user-attachments/assets/d53d7e3b-3294-49ce-bd0f-f1720c125ee6)
+
+**How to set up Minikube ?** <br>
+minikube is local Kubernetes, focusing on making it easy to learn and develop for Kubernetes.<br>
+All you need is Docker (or similarly compatible) container or a Virtual Machine environment, and Kubernetes is a single command away: **minikube start** <br>
+
+**What you’ll need** <br>
+> 2 CPUs or more <br>
+> 2GB of free memory <br>
+> 20GB of free disk space <br>
+> Internet connection <br>
+> Container or virtual machine manager, such as: Docker, QEMU, Hyperkit, Hyper-V, KVM, Parallels, Podman, VirtualBox, or VMware Fusion/Workstation <br>
+
+Get started <br>
+To install the latest minikube stable release on x86-64 Windows using .exe download: <br>
+> 1. Download and run the installer for the latest release. <br>
+Or if using PowerShell, use this command: <br>
+
+![Capture d’écran 2024-08-19 180042](https://github.com/user-attachments/assets/93af22de-b6cb-41d9-91e6-fee06c849275)
+
+> 2.Add the minikube.exe binary to your PATH. <br>
+Make sure to run PowerShell as Administrator. <br>
+
+![Capture d’écran 2024-09-02 171052](https://github.com/user-attachments/assets/c1a50178-fe8b-4dc5-be2a-09e5c142186d)
+
