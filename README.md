@@ -67,4 +67,11 @@ Once it's installed. You can start this Kubernetes cluster by using: **minikube 
 ![Capture d’écran 2024-08-21 160133](https://github.com/user-attachments/assets/2751a5a4-98a1-413f-9337-ea3edf846cb8)
 
 
+Get started with Kubernetes <br>
+> 1. Open your docker deamon engin
+> 2. Start the kubernetes cluster with five noeuds for example by using : **minikube start --nodes=5**
+> 3. Open the Dashboard of Kubernetes by using : **minikube dashboard**
+> 4. 
+
+
 
