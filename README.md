@@ -88,6 +88,14 @@ In this tutorial, we want to deploy an web application flask. <br>
 
 ![Capture d’écran 2024-09-02 175234](https://github.com/user-attachments/assets/d6f8a898-b490-4bfb-817a-6e0edf3919db)
 ![Capture d’écran 2024-09-02 175301](https://github.com/user-attachments/assets/112353a2-2fd9-4b93-b331-2eeb7414391a)
+
+> 6. Make a service your application. Before you do that. Check first the deployment is running. <br>
+
+![Capture d’écran 2024-09-02 175727](https://github.com/user-attachments/assets/f97b26f1-4b12-4acd-bfb1-b32db5df9de6)
+![Capture d’écran 2024-09-02 175810](https://github.com/user-attachments/assets/1a363019-86ee-4fc5-98be-e8ee134b3e64)
+![Capture d’écran 2024-09-02 180049](https://github.com/user-attachments/assets/38d202fc-056a-4ecb-b8a3-04d01d427231)
+![Capture d’écran 2024-09-02 180101](https://github.com/user-attachments/assets/2b426f97-5c3c-4b83-bfff-d8660b092ecd)
+
  
 
 
