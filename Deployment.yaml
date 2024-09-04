@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-api-deployement2
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: first-app-flask2
+  template:
+    metadata:
+      labels:
+        app: first-app-flask2
+    spec:
+     containers:
+     - name: flask-api-last2
+       image: gdiatta/ks8-app_flask_without_artifact:4.0
+       ports:
+       - containerPort: 8080

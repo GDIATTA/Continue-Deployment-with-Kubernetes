@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-api-deployement1
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: first-app-flask1
+  template:
+    metadata:
+      labels:
+        app: first-app-flask1
+    spec:
+     containers:
+     - name: flask-api-last1
+       image: gdiatta/ks8-app_flask_without_artifact:4.0
+       ports:
+       - containerPort: 8080
+
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: flask-api-last-service1
+spec:
+  selector:
+    app: first-app-flask1
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: NodePort
